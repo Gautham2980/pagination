@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#banner-section{
+    background-color:  #004466;
+    height: 80vh;
+    
+}
+
+.banner-container{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+} 
+
+.banner-row{
+    display: flex;
+} 
+
+ .banner-head{ 
+    padding-top:20%;
+    padding-left: 5%;
+    font-size: 45px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+} 
+
+  .banner-col{
+    width: 50%;
+    padding: 10px;
+    
+}  
+
+ .banner-para{
+    font-size: 19px;
+    padding-left: 1%;
+    padding-top: 15px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.button-div{
+    padding-top: 50px;
+    padding-left: 35px;
+    
+}
+
+.banner-button{
+    padding: 12px 24px;
+    border-radius:20px;
+    border: none;
+    font-size: 17px;
+    background-color:  #87c6e5;
+    color: white;
+}
+
+.banner-button:hover{
+    cursor: pointer;
+    
+}
+
+.flex{
+    display: flex;
+    
+} 
+
+.play{
+    padding-top:8%;
+    padding-left: 8%;
+    display: flex;
+}
+
+.play i{
+    font-size: 35px;
+    color: white;
+    display:inline;
+}
+
+.play span{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.watch{
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .banner-image{
+    width: 45%;
+    padding-top: 90px;
+    padding-left: 7%;
+    position: absolute;
+}  
+
+.banner-image img{
+    width: 100%;
+    animation:imgg 6s ease-in-out infinite;
+    animation-delay:0.7s;
+    transition:left 1s ease;
+}
+
+@keyframes imgg{
+	0%{transform:translatey(1);}
+	50%{transform:translatey(-10%);}
+	100%{transform:translatey(0)}
+}
